@@ -1,0 +1,19 @@
+.errorPageWrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+h1 {
+  color: var(--secondary-color);
+  font-size: 3rem;
+}
+
+.errorParent {
+  grid-area: 2 / 2 / 4 / 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

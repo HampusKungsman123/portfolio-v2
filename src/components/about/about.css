@@ -1,0 +1,29 @@
+.aboutWrapper {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.div1 {
+  grid-area: 2 / 2 / 4 / 5;
+}
+.div2 {
+  grid-area: 4 / 6 / 6 / 8;
+}
+
+.hobbies {
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+
+.hobbiesList li {
+  display: inline-flex;
+  padding-left: 5px;
+}
