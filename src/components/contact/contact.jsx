@@ -40,7 +40,7 @@ export default function Contact() {
         text: "Please try again",
         icon: "error",
         confirmButtonText: "Ok",
-        confirmButtonColor: "#7e60bf",
+        confirmButtonColor: "#e4b1f0",
       });
     }
   };
