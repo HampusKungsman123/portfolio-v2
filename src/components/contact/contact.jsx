@@ -27,7 +27,7 @@ export default function Contact() {
         title: "Message sent successfully",
         text: "I'll get back to you soon",
         icon: "success",
-        background: "#7e60bf",
+        background: "white",
         color: "#e4b1f0",
         confirmButtonText: "Ok",
         confirmButtonColor: "#e4b1f0",
