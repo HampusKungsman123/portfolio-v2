@@ -23,6 +23,11 @@ function Header() {
           </NavLink>
         </li>
         <li>
+          <NavLink to="/projects" activeClassName="active">
+            Projects
+          </NavLink>
+        </li>
+        <li>
           <NavLink to={pdf} target="_blank" activeClassName="active">
             Resume
           </NavLink>

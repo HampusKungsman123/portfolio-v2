@@ -8,6 +8,7 @@ import About from "./components/about/about";
 import Resume from "./components/resume/resume";
 import Contact from "./components/contact/contact";
 import ErrorPage from "./components/error/error";
+import Projects from "./components/projects/projects";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/projects" element={<Projects />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />
